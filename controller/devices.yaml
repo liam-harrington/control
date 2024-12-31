@@ -1,0 +1,20 @@
+---
+show_devices: true
+show_events: true
+interval: 0.25
+send_interval: 0.5
+host: 127.0.0.1
+port: 65432
+devices:
+  - name: Logitech Logitech RumblePad 2 USB
+    inputs:
+    - name: x
+      code: ABS_Z
+    - name: y
+      code: ABS_RZ
+    - name: test
+      code: ABS_HAT0X
+#  - name: HID 0433:0004
+#    inputs:
+#    - name: test
+#      code: KEY_S

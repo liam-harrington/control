@@ -1,0 +1,21 @@
+---
+name: car
+timeout: 0.5
+interval: 0.1
+post_disconnect: 1.0
+inputs:
+- name: forward
+  code: x
+  max: 255
+  min: 0
+  invert: true
+  offset: -2
+  multiply: 2
+  disconnect: 0
+- name: right
+  code: y
+  disconnect: 0
+- name: up
+  code: cross
+  disconnect: 0
+
